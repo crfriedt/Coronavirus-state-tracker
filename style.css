@@ -39,7 +39,7 @@ header > .top a.menu_icon:hover i {
 nav.menu {
 	width: 300px;
 	min-height: calc(100vh - 121px);
-	background-color:#03a9f4;
+	background-color:#494949;
 	position: absolute;
 	left: -300px;
 	transition: .3s all;
@@ -49,7 +49,7 @@ nav.menu > a {
 	display: block;
 	padding: 5px;
 	margin: 15px 0 0px 20px;
-	color: #494949;
+	color: #fff;
 	text-transform: uppercase;
 }
 
@@ -57,6 +57,12 @@ main {
 	width: 100%;
 	padding: 30px;
 	box-sizing: border-box;
+}
+
+#map {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
 }
 
 footer {
