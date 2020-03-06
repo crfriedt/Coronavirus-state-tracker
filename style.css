@@ -64,7 +64,7 @@ main {
     display: flex;
     justify-content: center;
     position: relative;
-    left: 200px;
+    left: 150px;
 }
 
 #map #current-number {
@@ -80,13 +80,12 @@ main {
 
 .state-name {
 	position: relative;
-	left:300px;
-	bottom: 100px;
+	bottom: 80px;
 	font-size: 100px;
 	color: #000;
 	display: flex;
 	flex-direction: row;
-	justify-content: flex-end;
+	justify-content: center;
 	align-items: baseline;
 	align-content: stretch;
 }
